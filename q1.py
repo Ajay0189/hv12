@@ -10,8 +10,8 @@ if opr=='*':
 elif opr=='+':
     print(a_series+b_series)
 elif opr=='-':
-    print(a_series/b_series)
-elif opr=='*':
+    print(a_series-b_series)
+elif opr=='/':
     print(a_series/b_series)
 else:
     print('choose the correct operator')
